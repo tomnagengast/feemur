@@ -1,7 +1,7 @@
 <?php
 include ('../init.inc.php');
 
-	$consumer_key = '17051-4756dda490fea357d9b64f2e';
+	$consumer_key = '';
 
 	// path.to should be the URL where your web app is hosted.
 	// eg. http://jshawl.com/callback.php
