@@ -6,8 +6,7 @@ $exceptions = array('register', 'login');
 
 $page = substr(end(explode('/' ,$_SERVER['SCRIPT_NAME'])), 0, -4);
 
-mysql_connect('feemur.db.9660825.hostedresource.com', 'feemur', 'Feemur2012!');
-mysql_select_db('feemur');
+// mysql connect and select_db
 
 $path = dirname(__FILE__);
 
